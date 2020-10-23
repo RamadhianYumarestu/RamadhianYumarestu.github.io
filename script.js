@@ -93,6 +93,9 @@ function kliktombol(x) {
                     console.log(countA)
                     document.getElementById("player1").innerHTML=
                     `SCORE PLAYER 1 : ${countA}`
+                    document.getElementById("tombol1B").style.color="#0000ff"
+                    document.getElementById("tombol2B").style.color="#0000ff"
+                    document.getElementById("tombol3B").style.color="#0000ff"
                     blok1=true
                 }
             //kotak 1
@@ -807,21 +810,26 @@ function kliktombol(x) {
 
             else{
                 player1=false
-                player2=true}
+                player2=true
+                document.getElementById("giliran").innerHTML="Giliran Player 2"
+            }
         }
 
 
         //player2 turn
-        if(player2===true) {
+        else if(player2===true) {
             if ( blok1 ===false &&
                 document.getElementById("tombol1B").innerHTML==="S" &&
                 document.getElementById("tombol2B").innerHTML==="O" &&
                 document.getElementById("tombol3B").innerHTML==="S" 
                 ) 
-                {   countA++
-                    console.log(countA)
+                {   countB++
+                    console.log(countB)
                     document.getElementById("player2").innerHTML=
-                    `SCORE PLAYER 1 : ${countB}`
+                    `SCORE PLAYER 2 : ${countB}`
+                    document.getElementById("tombol1B").style.color="#0000ff"
+                    document.getElementById("tombol2B").style.color="#0000ff"
+                    document.getElementById("tombol3B").style.color="#0000ff"
                     blok1=true
                 }
             //kotak 1
@@ -830,10 +838,10 @@ function kliktombol(x) {
                     document.getElementById("tombol6B").innerHTML==="O" &&
                     document.getElementById("tombol11B").innerHTML==="S" 
                     ) 
-                    {   countA++
-                        console.log(countA)
+                    {   countB++
+                        console.log(countB)
                         document.getElementById("player2").innerHTML=
-                        `SCORE PLAYER 1 : ${countB}`
+                        `SCORE PLAYER 2 : ${countB}`
                         document.getElementById("tombol1B").style.color="#0000ff"
                         document.getElementById("tombol6B").style.color="#0000ff"
                         document.getElementById("tombol11B").style.color="#0000ff"
@@ -845,10 +853,10 @@ function kliktombol(x) {
                         document.getElementById("tombol7B").innerHTML==="O" &&
                         document.getElementById("tombol13B").innerHTML==="S" 
                         ) 
-                        {   countA++
-                            console.log(countA)
+                        {   countB++
+                            console.log(countB)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol1B").style.color="#0000ff"
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
@@ -860,10 +868,10 @@ function kliktombol(x) {
                         document.getElementById("tombol3B").innerHTML==="O" &&
                         document.getElementById("tombol4B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol2B").style.color="#0000ff"
                             document.getElementById("tombol3B").style.color="#0000ff"
                             document.getElementById("tombol4B").style.color="#0000ff"
@@ -875,10 +883,10 @@ function kliktombol(x) {
                         document.getElementById("tombol7B").innerHTML==="O" &&
                         document.getElementById("tombol12B").innerHTML==="S" 
                         ) 
-                        {   countA++
-                            console.log(countA)
+                        {   countB++
+                            console.log(countB)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol2B").style.color="#0000ff"
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
@@ -890,10 +898,10 @@ function kliktombol(x) {
                         document.getElementById("tombol8B").innerHTML==="O" &&
                         document.getElementById("tombol14B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol2B").style.color="#0000ff"
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
@@ -905,10 +913,10 @@ function kliktombol(x) {
                         document.getElementById("tombol4B").innerHTML==="O" &&
                         document.getElementById("tombol5B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol3B").style.color="#0000ff"
                             document.getElementById("tombol4B").style.color="#0000ff"
                             document.getElementById("tombol5B").style.color="#0000ff"
@@ -920,10 +928,10 @@ function kliktombol(x) {
                         document.getElementById("tombol9B").innerHTML==="O" &&
                         document.getElementById("tombol15B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol3B").style.color="#0000ff"
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol15B").style.color="#0000ff"
@@ -935,10 +943,10 @@ function kliktombol(x) {
                         document.getElementById("tombol8B").innerHTML==="O" &&
                         document.getElementById("tombol13B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol3B").style.color="#0000ff"
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
@@ -950,10 +958,10 @@ function kliktombol(x) {
                         document.getElementById("tombol7B").innerHTML==="O" &&
                         document.getElementById("tombol11B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol3B").style.color="#0000ff"
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol11B").style.color="#0000ff"
@@ -965,10 +973,10 @@ function kliktombol(x) {
                         document.getElementById("tombol9B").innerHTML==="O" &&
                         document.getElementById("tombol14B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol4B").style.color="#0000ff"
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
@@ -980,10 +988,10 @@ function kliktombol(x) {
                         document.getElementById("tombol8B").innerHTML==="O" &&
                         document.getElementById("tombol12B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol4B").style.color="#0000ff"
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
@@ -996,10 +1004,10 @@ function kliktombol(x) {
                         document.getElementById("tombol10B").innerHTML==="O" &&
                         document.getElementById("tombol15B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol5B").style.color="#0000ff"
                             document.getElementById("tombol10B").style.color="#0000ff"
                             document.getElementById("tombol15B").style.color="#0000ff"
@@ -1011,10 +1019,10 @@ function kliktombol(x) {
                         document.getElementById("tombol9B").innerHTML==="O" &&
                         document.getElementById("tombol13B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol5B").style.color="#0000ff"
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
@@ -1026,10 +1034,10 @@ function kliktombol(x) {
                         document.getElementById("tombol7B").innerHTML==="O" &&
                         document.getElementById("tombol8B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol6B").style.color="#0000ff"
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol8B").style.color="#0000ff"
@@ -1041,10 +1049,10 @@ function kliktombol(x) {
                         document.getElementById("tombol12B").innerHTML==="O" &&
                         document.getElementById("tombol18B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol6").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
@@ -1056,10 +1064,10 @@ function kliktombol(x) {
                         document.getElementById("tombol11B").innerHTML==="O" &&
                         document.getElementById("tombol16B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol6B").style.color="#0000ff"
                             document.getElementById("tombol11B").style.color="#0000ff"
                             document.getElementById("tombol16B").style.color="#0000ff"
@@ -1071,10 +1079,10 @@ function kliktombol(x) {
                         document.getElementById("tombol8B").innerHTML==="O" &&
                         document.getElementById("tombol9B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol9B").style.color="#0000ff"
@@ -1086,10 +1094,10 @@ function kliktombol(x) {
                         document.getElementById("tombol13B").innerHTML==="O" &&
                         document.getElementById("tombol19B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
@@ -1101,10 +1109,10 @@ function kliktombol(x) {
                         document.getElementById("tombol12B").innerHTML==="O" &&
                         document.getElementById("tombol17B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol7B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
@@ -1116,10 +1124,10 @@ function kliktombol(x) {
                         document.getElementById("tombol9B").innerHTML==="O" &&
                         document.getElementById("tombol10B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol10B").style.color="#0000ff"
@@ -1131,10 +1139,10 @@ function kliktombol(x) {
                         document.getElementById("tombol14B").innerHTML==="O" &&
                         document.getElementById("tombol20B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER  : ${countB}`
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol20B").style.color="#0000ff"
@@ -1146,10 +1154,10 @@ function kliktombol(x) {
                         document.getElementById("tombol13B").innerHTML==="O" &&
                         document.getElementById("tombol18B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
@@ -1161,10 +1169,10 @@ function kliktombol(x) {
                         document.getElementById("tombol12B").innerHTML==="O" &&
                         document.getElementById("tombol16B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol8B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol16B").style.color="#0000ff"
@@ -1176,10 +1184,10 @@ function kliktombol(x) {
                         document.getElementById("tombol14B").innerHTML==="O" &&
                         document.getElementById("tombol19B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
@@ -1191,10 +1199,10 @@ function kliktombol(x) {
                         document.getElementById("tombol13B").innerHTML==="O" &&
                         document.getElementById("tombol17B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol9B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
@@ -1206,10 +1214,10 @@ function kliktombol(x) {
                         document.getElementById("tombol15B").innerHTML==="O" &&
                         document.getElementById("tombol20B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol10B").style.color="#0000ff"
                             document.getElementById("tombol15B").style.color="#0000ff"
                             document.getElementById("tombol20B").style.color="#0000ff"
@@ -1221,10 +1229,10 @@ function kliktombol(x) {
                         document.getElementById("tombol14B").innerHTML==="O" &&
                         document.getElementById("tombol18B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol10B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
@@ -1236,10 +1244,10 @@ function kliktombol(x) {
                         document.getElementById("tombol12B").innerHTML==="O" &&
                         document.getElementById("tombol13B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol11B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
@@ -1251,10 +1259,10 @@ function kliktombol(x) {
                         document.getElementById("tombol17B").innerHTML==="O" &&
                         document.getElementById("tombol23B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol11B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
                             document.getElementById("tombol23B").style.color="#0000ff"
@@ -1266,10 +1274,10 @@ function kliktombol(x) {
                         document.getElementById("tombol16B").innerHTML==="O" &&
                         document.getElementById("tombol21B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol11B").style.color="#0000ff"
                             document.getElementById("tombol16B").style.color="#0000ff"
                             document.getElementById("tombol21B").style.color="#0000ff"
@@ -1281,10 +1289,10 @@ function kliktombol(x) {
                         document.getElementById("tombol13B").innerHTML==="O" &&
                         document.getElementById("tombol14B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
@@ -1296,10 +1304,10 @@ function kliktombol(x) {
                         document.getElementById("tombol18B").innerHTML==="O" &&
                         document.getElementById("tombol24B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
                             document.getElementById("tombol24B").style.color="#0000ff"
@@ -1312,10 +1320,10 @@ function kliktombol(x) {
                         document.getElementById("tombol17B").innerHTML==="O" &&
                         document.getElementById("tombol22B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol12B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
                             document.getElementById("tombol22B").style.color="#0000ff"
@@ -1328,10 +1336,10 @@ function kliktombol(x) {
                         document.getElementById("tombol14B").innerHTML==="O" &&
                         document.getElementById("tombol15B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol15B").style.color="#0000ff"
@@ -1343,10 +1351,10 @@ function kliktombol(x) {
                         document.getElementById("tombol19B").innerHTML==="O" &&
                         document.getElementById("tombol25B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
                             document.getElementById("tombol25B").style.color="#0000ff"
@@ -1358,10 +1366,10 @@ function kliktombol(x) {
                         document.getElementById("tombol18B").innerHTML==="O" &&
                         document.getElementById("tombol23B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
                             document.getElementById("tombol23B").style.color="#0000ff"
@@ -1373,10 +1381,10 @@ function kliktombol(x) {
                         document.getElementById("tombol17B").innerHTML==="O" &&
                         document.getElementById("tombol21B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol13B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
                             document.getElementById("tombol21B").style.color="#0000ff"
@@ -1388,10 +1396,10 @@ function kliktombol(x) {
                         document.getElementById("tombol19B").innerHTML==="O" &&
                         document.getElementById("tombol24B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
                             document.getElementById("tombol24B").style.color="#0000ff"
@@ -1403,10 +1411,10 @@ function kliktombol(x) {
                         document.getElementById("tombol18B").innerHTML==="O" &&
                         document.getElementById("tombol22B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol14B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
                             document.getElementById("tombol22B").style.color="#0000ff"
@@ -1418,10 +1426,10 @@ function kliktombol(x) {
                         document.getElementById("tombol20B").innerHTML==="O" &&
                         document.getElementById("tombol25B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol15B").style.color="#0000ff"
                             document.getElementById("tombol20B").style.color="#0000ff"
                             document.getElementById("tombol25B").style.color="#0000ff"
@@ -1433,10 +1441,10 @@ function kliktombol(x) {
                         document.getElementById("tombol19B").innerHTML==="O" &&
                         document.getElementById("tombol23B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol15B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
                             document.getElementById("tombol23B").style.color="#0000ff"
@@ -1448,10 +1456,10 @@ function kliktombol(x) {
                         document.getElementById("tombol17B").innerHTML==="O" &&
                         document.getElementById("tombol18B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol16B").style.color="#0000ff"
                             document.getElementById("tombol17B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
@@ -1463,10 +1471,10 @@ function kliktombol(x) {
                         document.getElementById("tombol18B").innerHTML==="O" &&
                         document.getElementById("tombol19B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol17B").style.color="#0000ff"
                             document.getElementById("tombol18B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
@@ -1478,10 +1486,10 @@ function kliktombol(x) {
                         document.getElementById("tombol19B").innerHTML==="O" &&
                         document.getElementById("tombol20B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol18B").style.color="#0000ff"
                             document.getElementById("tombol19B").style.color="#0000ff"
                             document.getElementById("tombol20B").style.color="#0000ff"
@@ -1493,10 +1501,10 @@ function kliktombol(x) {
                         document.getElementById("tombol22B").innerHTML==="O" &&
                         document.getElementById("tombol23B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol21B").style.color="#0000ff"
                             document.getElementById("tombol22B").style.color="#0000ff"
                             document.getElementById("tombol23B").style.color="#0000ff"
@@ -1509,10 +1517,10 @@ function kliktombol(x) {
                         document.getElementById("tombol23B").innerHTML==="O" &&
                         document.getElementById("tombol24B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol22B").style.color="#0000ff"
                             document.getElementById("tombol23B").style.color="#0000ff"
                             document.getElementById("tombol24B").style.color="#0000ff"
@@ -1524,10 +1532,10 @@ function kliktombol(x) {
                         document.getElementById("tombol24B").innerHTML==="O" &&
                         document.getElementById("tombol25B").innerHTML==="S" 
                         ) 
-                        {   countA++
+                        {   countB++
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
-                            `SCORE PLAYER 1 : ${countB}`
+                            `SCORE PLAYER 2 : ${countB}`
                             document.getElementById("tombol23B").style.color="#0000ff"
                             document.getElementById("tombol24B").style.color="#0000ff"
                             document.getElementById("tombol25B").style.color="#0000ff"
@@ -1536,7 +1544,9 @@ function kliktombol(x) {
 
             else{
                 player1=true
-                player2=false}
+                player2=false
+                document.getElementById("giliran").innerHTML="Giliran Player 1"
+            }
         }
 
 
