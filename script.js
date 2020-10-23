@@ -62,6 +62,8 @@ let blok52 = false
 let player1=true
 let player2=false
 
+alert("Cara Bermain : Jika 3 kotak berturut-turut membentuk huruf 'SOS' baik secara vertikal/horizontal/menyilang, maka point player akan bertambah '1` dan tetap mendapat giliran. Jika tidak, giliran player saat ini beralih ke player lain. Selamat Bermain !")
+
 function kliktombol(x) {
     if(!flag){
          alert("Tentukan terlebih dahulu huruf yang akan ditempatkan pada kotak")
@@ -827,9 +829,9 @@ function kliktombol(x) {
                     console.log(countB)
                     document.getElementById("player2").innerHTML=
                     `SCORE PLAYER 2 : ${countB}`
-                    document.getElementById("tombol1B").style.color="#0000ff"
-                    document.getElementById("tombol2B").style.color="#0000ff"
-                    document.getElementById("tombol3B").style.color="#0000ff"
+                    document.getElementById("tombol1B").style.color="#ffd700"
+                    document.getElementById("tombol2B").style.color="#ffd700"
+                    document.getElementById("tombol3B").style.color="#ffd700"
                     blok1=true
                 }
             //kotak 1
@@ -842,9 +844,9 @@ function kliktombol(x) {
                         console.log(countB)
                         document.getElementById("player2").innerHTML=
                         `SCORE PLAYER 2 : ${countB}`
-                        document.getElementById("tombol1B").style.color="#0000ff"
-                        document.getElementById("tombol6B").style.color="#0000ff"
-                        document.getElementById("tombol11B").style.color="#0000ff"
+                        document.getElementById("tombol1B").style.color="#ffd700"
+                        document.getElementById("tombol6B").style.color="#ffd700"
+                        document.getElementById("tombol11B").style.color="#ffd700"
                         blok2=true
                     }
             //kotak 1
@@ -857,9 +859,9 @@ function kliktombol(x) {
                             console.log(countB)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol1B").style.color="#0000ff"
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol1B").style.color="#ffd700"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
                             blok3=true
                         }     
             //kotak 2
@@ -872,9 +874,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol2B").style.color="#0000ff"
-                            document.getElementById("tombol3B").style.color="#0000ff"
-                            document.getElementById("tombol4B").style.color="#0000ff"
+                            document.getElementById("tombol2B").style.color="#ffd700"
+                            document.getElementById("tombol3B").style.color="#ffd700"
+                            document.getElementById("tombol4B").style.color="#ffd700"
                             blok4=true
                         }      
             //kotak 2
@@ -887,9 +889,9 @@ function kliktombol(x) {
                             console.log(countB)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol2B").style.color="#0000ff"
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
+                            document.getElementById("tombol2B").style.color="#ffd700"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
                             blok5=true
                         }  
             //kotak 2
@@ -902,9 +904,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol2B").style.color="#0000ff"
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
+                            document.getElementById("tombol2B").style.color="#ffd700"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
                             blok6=true
                         }  
             //kotak 3
@@ -917,9 +919,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol3B").style.color="#0000ff"
-                            document.getElementById("tombol4B").style.color="#0000ff"
-                            document.getElementById("tombol5B").style.color="#0000ff"
+                            document.getElementById("tombol3B").style.color="#ffd700"
+                            document.getElementById("tombol4B").style.color="#ffd700"
+                            document.getElementById("tombol5B").style.color="#ffd700"
                             blok7=true
                         }  
             //kotak 3
@@ -932,9 +934,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol3B").style.color="#0000ff"
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol15B").style.color="#0000ff"
+                            document.getElementById("tombol3B").style.color="#ffd700"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol15B").style.color="#ffd700"
                             blok8=true
                         }    
             //kotak 3
@@ -947,9 +949,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol3B").style.color="#0000ff"
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol3B").style.color="#ffd700"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
                             blok9=true
                         }   
             //kotak 3
@@ -962,9 +964,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol3B").style.color="#0000ff"
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol11B").style.color="#0000ff"
+                            document.getElementById("tombol3B").style.color="#ffd700"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol11B").style.color="#ffd700"
                             blok10=true
                         }   
             //kotak 4
@@ -977,9 +979,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol4B").style.color="#0000ff"
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
+                            document.getElementById("tombol4B").style.color="#ffd700"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
                             blok11=true
                         }  
             //kotak 4
@@ -992,9 +994,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol4B").style.color="#0000ff"
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
+                            document.getElementById("tombol4B").style.color="#ffd700"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
                             blok12=true
                         }  
         
@@ -1008,9 +1010,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol5B").style.color="#0000ff"
-                            document.getElementById("tombol10B").style.color="#0000ff"
-                            document.getElementById("tombol15B").style.color="#0000ff"
+                            document.getElementById("tombol5B").style.color="#ffd700"
+                            document.getElementById("tombol10B").style.color="#ffd700"
+                            document.getElementById("tombol15B").style.color="#ffd700"
                             blok13A=true
                         }  
         //kotak 5
@@ -1023,9 +1025,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol5B").style.color="#0000ff"
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol5B").style.color="#ffd700"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
                             blok14=true
                         }  
             //kotak 6
@@ -1038,9 +1040,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol6B").style.color="#0000ff"
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol8B").style.color="#0000ff"
+                            document.getElementById("tombol6B").style.color="#ffd700"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol8B").style.color="#ffd700"
                             blok15=true
                         }  
             //kotak 6
@@ -1053,9 +1055,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol6").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol6").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
                             blok16=true
                         } 
             //kotak 6
@@ -1068,9 +1070,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol6B").style.color="#0000ff"
-                            document.getElementById("tombol11B").style.color="#0000ff"
-                            document.getElementById("tombol16B").style.color="#0000ff"
+                            document.getElementById("tombol6B").style.color="#ffd700"
+                            document.getElementById("tombol11B").style.color="#ffd700"
+                            document.getElementById("tombol16B").style.color="#ffd700"
                             blok17=true
                         } 
             //kotak 7
@@ -1083,9 +1085,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol9B").style.color="#0000ff"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol9B").style.color="#ffd700"
                             blok18=true
                         } 
             //kotak 7
@@ -1098,9 +1100,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
                             blok19=true
                         } 
             //kotak 7
@@ -1113,9 +1115,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol7B").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
+                            document.getElementById("tombol7B").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
                             blok20=true
                         } 
             //kotak 8
@@ -1128,9 +1130,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol10B").style.color="#0000ff"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol10B").style.color="#ffd700"
                             blok21=true
                         } 
             //kotak 8
@@ -1143,9 +1145,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER  : ${countB}`
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol20B").style.color="#0000ff"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol20B").style.color="#ffd700"
                             blok22=true
                         } 
             //kotak 8
@@ -1158,9 +1160,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
                             blok23=true
                         } 
             //kotak 8
@@ -1173,9 +1175,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol8B").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol16B").style.color="#0000ff"
+                            document.getElementById("tombol8B").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol16B").style.color="#ffd700"
                             blok24=true
                         } 
             //kotak 9
@@ -1188,9 +1190,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
                             blok25=true
                         } 
             //kotak 9
@@ -1203,9 +1205,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol9B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
+                            document.getElementById("tombol9B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
                             blok26=true
                         } 
             //kotak 10
@@ -1218,9 +1220,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol10B").style.color="#0000ff"
-                            document.getElementById("tombol15B").style.color="#0000ff"
-                            document.getElementById("tombol20B").style.color="#0000ff"
+                            document.getElementById("tombol10B").style.color="#ffd700"
+                            document.getElementById("tombol15B").style.color="#ffd700"
+                            document.getElementById("tombol20B").style.color="#ffd700"
                             blok27=true
                         }                
             //kotak 10
@@ -1233,9 +1235,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol10B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
+                            document.getElementById("tombol10B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
                             blok28=true
                         }    
             //kotak 11
@@ -1248,9 +1250,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol11B").style.color="#0000ff"
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol11B").style.color="#ffd700"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
                             blok29=true
                         } 
         //kotak 11
@@ -1263,9 +1265,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol11B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
-                            document.getElementById("tombol23B").style.color="#0000ff"
+                            document.getElementById("tombol11B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
+                            document.getElementById("tombol23B").style.color="#ffd700"
                             blok30=true
                         } 
             //kotak 11
@@ -1278,9 +1280,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol11B").style.color="#0000ff"
-                            document.getElementById("tombol16B").style.color="#0000ff"
-                            document.getElementById("tombol21B").style.color="#0000ff"
+                            document.getElementById("tombol11B").style.color="#ffd700"
+                            document.getElementById("tombol16B").style.color="#ffd700"
+                            document.getElementById("tombol21B").style.color="#ffd700"
                             blok31=true
                         } 
             //kotak 12
@@ -1293,9 +1295,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
                             blok32=true
                         } 
             //kotak 12
@@ -1308,9 +1310,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
-                            document.getElementById("tombol24B").style.color="#0000ff"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
+                            document.getElementById("tombol24B").style.color="#ffd700"
                             blok33=true
                         } 
 
@@ -1324,9 +1326,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
-                            document.getElementById("tombol22B").style.color="#0000ff"
+                            document.getElementById("tombol12B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
+                            document.getElementById("tombol22B").style.color="#ffd700"
                             blok34=true
                         } 
 
@@ -1340,9 +1342,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol15B").style.color="#0000ff"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol15B").style.color="#ffd700"
                             blok35=true
                         } 
             //kotak 13
@@ -1355,9 +1357,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
-                            document.getElementById("tombol25B").style.color="#0000ff"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
+                            document.getElementById("tombol25B").style.color="#ffd700"
                             blok36=true
                         } 
             //kotak 13
@@ -1370,9 +1372,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
-                            document.getElementById("tombol23B").style.color="#0000ff"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
+                            document.getElementById("tombol23B").style.color="#ffd700"
                             blok37=true
                         } 
             //kotak 13
@@ -1385,9 +1387,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol13B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
-                            document.getElementById("tombol21B").style.color="#0000ff"
+                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
+                            document.getElementById("tombol21B").style.color="#ffd700"
                             blok38=true
                         } 
             //kotak 14
@@ -1400,9 +1402,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
-                            document.getElementById("tombol24B").style.color="#0000ff"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
+                            document.getElementById("tombol24B").style.color="#ffd700"
                             blok39=true
                         } 
             //kotak 14
@@ -1415,9 +1417,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol14B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
-                            document.getElementById("tombol22B").style.color="#0000ff"
+                            document.getElementById("tombol14B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
+                            document.getElementById("tombol22B").style.color="#ffd700"
                             blok40=true
                         } 
             //kotak 15
@@ -1430,9 +1432,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol15B").style.color="#0000ff"
-                            document.getElementById("tombol20B").style.color="#0000ff"
-                            document.getElementById("tombol25B").style.color="#0000ff"
+                            document.getElementById("tombol15B").style.color="#ffd700"
+                            document.getElementById("tombol20B").style.color="#ffd700"
+                            document.getElementById("tombol25B").style.color="#ffd700"
                             blok41=true
                         } 
             //kotak 15
@@ -1445,9 +1447,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol15B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
-                            document.getElementById("tombol23B").style.color="#0000ff"
+                            document.getElementById("tombol15B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
+                            document.getElementById("tombol23B").style.color="#ffd700"
                             blok42=true
                         } 
             //kotak 16
@@ -1460,9 +1462,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol16B").style.color="#0000ff"
-                            document.getElementById("tombol17B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
+                            document.getElementById("tombol16B").style.color="#ffd700"
+                            document.getElementById("tombol17B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
                             blok43=true
                         } 
             //kotak 17
@@ -1475,9 +1477,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol17B").style.color="#0000ff"
-                            document.getElementById("tombol18B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
+                            document.getElementById("tombol17B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
                             blok44=true
                         } 
             //kotak 18
@@ -1490,9 +1492,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol18B").style.color="#0000ff"
-                            document.getElementById("tombol19B").style.color="#0000ff"
-                            document.getElementById("tombol20B").style.color="#0000ff"
+                            document.getElementById("tombol18B").style.color="#ffd700"
+                            document.getElementById("tombol19B").style.color="#ffd700"
+                            document.getElementById("tombol20B").style.color="#ffd700"
                             blok45=true
                         } 
             //kotak 21
@@ -1505,9 +1507,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol21B").style.color="#0000ff"
-                            document.getElementById("tombol22B").style.color="#0000ff"
-                            document.getElementById("tombol23B").style.color="#0000ff"
+                            document.getElementById("tombol21B").style.color="#ffd700"
+                            document.getElementById("tombol22B").style.color="#ffd700"
+                            document.getElementById("tombol23B").style.color="#ffd700"
                             blok46=true
                         } 
             
@@ -1521,9 +1523,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol22B").style.color="#0000ff"
-                            document.getElementById("tombol23B").style.color="#0000ff"
-                            document.getElementById("tombol24B").style.color="#0000ff"
+                            document.getElementById("tombol22B").style.color="#ffd700"
+                            document.getElementById("tombol23B").style.color="#ffd700"
+                            document.getElementById("tombol24B").style.color="#ffd700"
                             blok47=true
                         }
             //kotak 23
@@ -1536,9 +1538,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol23B").style.color="#0000ff"
-                            document.getElementById("tombol24B").style.color="#0000ff"
-                            document.getElementById("tombol25B").style.color="#0000ff"
+                            document.getElementById("tombol23B").style.color="#ffd700"
+                            document.getElementById("tombol24B").style.color="#ffd700"
+                            document.getElementById("tombol25B").style.color="#ffd700"
                             blok48=true
                         } 
 

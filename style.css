@@ -7,9 +7,6 @@
     text-align: center;
 }
 
-#pilihan {
-  
-}
 
 #s {
     width: 75px;
@@ -55,6 +52,6 @@
     backface-visibility: hidden;
     transition: transform 1s linear 0s;
     font-size: 70px;
-    color: black;
+    color: #000;
 
 }
