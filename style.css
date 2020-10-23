@@ -1,3 +1,7 @@
+* {
+    background-color: antiquewhite;
+}
+
 #pos {
     padding-left: 660px;
     padding-top: 0px;
@@ -20,11 +24,14 @@
     font-size: 20px;
 }
 
+#giliran {
+    color: #000;
+}
+
 #kotak {
     border: solid 5px #ccc;
     width: 500px;
     height: 500px;
-  
 }
 
 #tombol {
@@ -41,6 +48,7 @@
     border: solid 1px #000;
     backface-visibility: hidden;
     transition: transform 1s linear 0s;
+    background-color: rgb(247, 241, 241);
 }
 
 .belakang {
@@ -53,5 +61,6 @@
     transition: transform 1s linear 0s;
     font-size: 70px;
     color: #000;
+    background-color: rgb(124, 124, 124);
 
 }

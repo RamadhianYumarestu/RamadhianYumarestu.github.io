@@ -65,8 +65,9 @@ let player2=false
 alert("Cara Bermain : Jika 3 kotak berturut-turut membentuk huruf 'SOS' baik secara vertikal/horizontal/menyilang, maka point player akan bertambah '1` dan tetap mendapat giliran. Jika tidak, giliran player saat ini beralih ke player lain. Selamat Bermain !")
 
 function kliktombol(x) {
+    
     if(!flag){
-         alert("Tentukan terlebih dahulu huruf yang akan ditempatkan pada kotak")
+         alert("Tentukan terlebih dahulu huruf yang akan ditempatkan kedalam kotak")
     }
 
     else if (flag) {
@@ -86,6 +87,7 @@ function kliktombol(x) {
 
         // kotak 1
         if(player1===true) {
+            document.getElementById("giliran").style.color="#000"
             if ( blok1 ===false &&
                 document.getElementById("tombol1B").innerHTML==="S" &&
                 document.getElementById("tombol2B").innerHTML==="O" &&
@@ -321,9 +323,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player1").innerHTML=
                             `SCORE PLAYER 1 : ${countA}`
-                            document.getElementById("tombol6").style.color="#0000ff"
+                            document.getElementById("tombol6B").style.color="#0000ff"
                             document.getElementById("tombol12B").style.color="#0000ff"
-                            document.getElementById("tombol13B").style.color="#0000ff"
+                            document.getElementById("tombol18B").style.color="#0000ff"
                             blok16=true
                         } 
             //kotak 6
@@ -814,12 +816,14 @@ function kliktombol(x) {
                 player1=false
                 player2=true
                 document.getElementById("giliran").innerHTML="Giliran Player 2"
+                document.getElementById("giliran").style.color="#8b0000"
             }
         }
 
 
         //player2 turn
         else if(player2===true) {
+            document.getElementById("giliran").style.color="#000"
             if ( blok1 ===false &&
                 document.getElementById("tombol1B").innerHTML==="S" &&
                 document.getElementById("tombol2B").innerHTML==="O" &&
@@ -1055,9 +1059,9 @@ function kliktombol(x) {
                             console.log(countA)
                             document.getElementById("player2").innerHTML=
                             `SCORE PLAYER 2 : ${countB}`
-                            document.getElementById("tombol6").style.color="#ffd700"
+                            document.getElementById("tombol6B").style.color="#ffd700"
                             document.getElementById("tombol12B").style.color="#ffd700"
-                            document.getElementById("tombol13B").style.color="#ffd700"
+                            document.getElementById("tombol18B").style.color="#ffd700"
                             blok16=true
                         } 
             //kotak 6
@@ -1548,6 +1552,9 @@ function kliktombol(x) {
                 player1=true
                 player2=false
                 document.getElementById("giliran").innerHTML="Giliran Player 1"
+                document.getElementById("giliran").style.color="#8b0000"
+                
+                
             }
         }
 
@@ -1565,13 +1572,13 @@ function kliktombol(x) {
 function tentukan(y) {
     if(y===1){
         document.getElementById("pilih").innerHTML=
-        "Pilih salah satu untuk ditempatkan di kotak : S"
+        "Pilih salah satu untuk ditempatkan kedalam kotak : S"
         pilihan="S"
         flag=true
     }
     if(y===2){
         document.getElementById("pilih").innerHTML=
-        "Pilih salah satu untuk ditempatkan di kotak : O"
+        "Pilih salah satu untuk ditempatkan kedalam kotak : O"
         pilihan="O"
         flag=true
     }
