@@ -1,0 +1,60 @@
+#pos {
+    padding-left: 660px;
+    padding-top: 0px;
+}
+
+#judul {
+    text-align: center;
+}
+
+#pilihan {
+  
+}
+
+#s {
+    width: 75px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#o {
+    width: 75px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#kotak {
+    border: solid 5px #ccc;
+    width: 500px;
+    height: 500px;
+  
+}
+
+#tombol {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.depan {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    border: solid 1px #000;
+    backface-visibility: hidden;
+    transition: transform 1s linear 0s;
+}
+
+.belakang {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: perspective(500px) rotateY(180deg);
+    border: solid 1px #000;
+    backface-visibility: hidden;
+    transition: transform 1s linear 0s;
+    font-size: 70px;
+    color: black;
+
+}
